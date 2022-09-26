@@ -1,0 +1,14 @@
+useCallback은 결국 useMemo로 함수를 반환해야 하는 상황에서 더 편하게 사용할 수 있는 Hook입니다.
+숫자 , 문자열 , 객체처럼 일반 값을 재사용하려면 useMemo를 사용하고, 함수를 재사용하려면 useCallback을 사용하면 된다.
+
+ex)
+useCallback ( () => {
+    console.log('hello world')
+} , [])
+
+useMemo( () => {
+    const fn = () => {
+        console.log('hello world');
+    };
+    return fn;
+} , [])

@@ -1,0 +1,55 @@
+* Clipboard
+[ex]
+class App extends Component {
+  constructor(props){
+      super(props)
+      this.state = {
+        text: "This is a sample text"
+      }
+    }
+  render() {
+    return (
+      <div>
+        <p>{this.state.text}</p>
+        <button onClick={() => navigator.clipboard.writeText(this.state.text)}>Copy Text</button>
+      </div>)
+  }
+}
+해당 범위를 복사할 수 있는 기능
+
+
+* Composition
+    서로 다른 객체를 여러개 붙여서 새로운 기능이나 객체를 구성
+    일반적으로 합성 할 클래스를 변수에 할당 후 사용하는 구조
+    이렇게 합성 한 경우 , 상속과는 다르게 클래스간의 유기적으로 서로의 클래스를 융통성있게 합성가능
+    has-a라고도 한다.
+    상속은 재사용의 관점보다는 기능 확장에 사용
+    재사용을 하기 위해서는 합성(Composition) has-a 방식을 사용해야한다
+
+
+* KeyBoard
+    특정한 키에 이벤트를 만들 수 있는듯
+
+* Focus
+    마우스를 올리면
+
+* Form
+
+* Mouse
+
+* Selection
+
+* Touch
+
+* UI
+
+* Wheel
+
+*Media
+
+* Image
+
+* Animation
+
+* Transition
+
