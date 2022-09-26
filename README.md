@@ -1,4 +1,3 @@
-# 제목 없음
 
 # 간단한 설명
 
@@ -14,9 +13,10 @@
 
 JSX는 HTML과 비슷하지만 완전히 똑같지는 않다.
 
-![Untitled](%E1%84%8C%E1%85%A6%E1%84%86%E1%85%A9%E1%86%A8%20%E1%84%8B%E1%85%A5%E1%86%B9%E1%84%8B%E1%85%B3%E1%86%B7%204c938e04995947e39785058e368695d6/Untitled.png)
+![image](https://user-images.githubusercontent.com/112991701/192230626-e0f7c26c-4145-4988-8fd3-77fdea64e127.png)
 
-![Untitled](%E1%84%8C%E1%85%A6%E1%84%86%E1%85%A9%E1%86%A8%20%E1%84%8B%E1%85%A5%E1%86%B9%E1%84%8B%E1%85%B3%E1%86%B7%204c938e04995947e39785058e368695d6/Untitled%201.png)
+
+![image](https://user-images.githubusercontent.com/112991701/192230712-c99e7642-2892-4072-a8be-0d8565e1aa0f.png)
 
 ---
 
@@ -28,10 +28,11 @@ props와 state 둘 다 컴포넌트에서 사용하거나 렌더링할 데이터
 
  props는 부모 컴포넌트가 설정하고, state는 컴포넌트 자체적으로 지닌 값으로 컴포넌트 내부에서 값을 업데이트합니다.
 
+![image](https://user-images.githubusercontent.com/112991701/192230836-50c811f5-d5a9-441e-abbd-f1718acea2da.png)
+
 ---
 
 # 4장
 
-![Untitled](%E1%84%8C%E1%85%A6%E1%84%86%E1%85%A9%E1%86%A8%20%E1%84%8B%E1%85%A5%E1%86%B9%E1%84%8B%E1%85%B3%E1%86%B7%204c938e04995947e39785058e368695d6/Untitled%202.png)
 
 ---
